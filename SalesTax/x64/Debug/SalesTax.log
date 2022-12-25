@@ -1,0 +1,4 @@
+﻿  SalesTax.cpp
+E:\IT projects\cplus-plus\SalesTax\SalesTax.cpp(10,26): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\IT projects\cplus-plus\SalesTax\SalesTax.cpp(11,26): warning C4305: 'initializing': truncation from 'double' to 'float'
+  SalesTax.vcxproj -> E:\IT projects\cplus-plus\CPPConsoleProjects\x64\Debug\SalesTax.exe

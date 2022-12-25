@@ -1,0 +1,4 @@
+﻿  Source.cpp
+E:\IT projects\cplus-plus\Restaurant Bill\Source.cpp(7,34): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\IT projects\cplus-plus\Restaurant Bill\Source.cpp(8,41): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Restaurant Bill.vcxproj -> E:\IT projects\cplus-plus\CPPConsoleProjects\x64\Debug\Restaurant Bill.exe
