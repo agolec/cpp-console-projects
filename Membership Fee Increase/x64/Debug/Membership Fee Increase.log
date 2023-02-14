@@ -1,0 +1,4 @@
+﻿  Membership Fee Increase.cpp
+E:\IT projects\cplus-plus\Membership Fee Increase\Membership Fee Increase.cpp(9,55): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\IT projects\cplus-plus\Membership Fee Increase\Membership Fee Increase.cpp(16,52): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+  Membership Fee Increase.vcxproj -> E:\IT projects\cplus-plus\CPPConsoleProjects\x64\Debug\Membership Fee Increase.exe
