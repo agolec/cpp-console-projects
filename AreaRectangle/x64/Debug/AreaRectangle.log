@@ -1,0 +1,3 @@
+﻿  AreaRectangle.cpp
+E:\IT projects\cplus-plus\cpp-console-projects\AreaRectangle\AreaRectangle.cpp(41,12): warning C4101: 'area': unreferenced local variable
+  AreaRectangle.vcxproj -> E:\IT projects\cplus-plus\cpp-console-projects\CPPConsoleProjects\x64\Debug\AreaRectangle.exe

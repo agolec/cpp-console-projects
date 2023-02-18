@@ -1,0 +1,23 @@
+Review:
+
+1) Why do local variables lose their values between calls to the function in which they are defined? A: They're passed by value- not by reference. A copy of the variable's data
+is passed into a function, rather than that variable itself.
+
+2) What is the difference between an argument and a parameter variable? A: An argument is the data/value you actually pass to a function that has been written, and is now being called. 
+A parameter is the data type that the function declaration will expect you to pass to the function when you eventually call it.
+
+3)Where do you define parameter variables? In prototypes and headers of function declarations.
+
+4) if you  are writing a function that accepts an argument and you want to make sure that function cannot change the value of the argument, what do you do? You pass it by value instead of reference.
+Because passing an argument by value will not change the value of the variable used as an argument to the function.
+
+5) When a function accepts multiple arguments, does it matter in what order the arguments are passed? Yes. The order the arguments are defined is the order they are accepted.
+
+6) How do you return a value from a function? A return statement.
+
+7) What is the advantage of breaking up your program into several small procedures? Code is re-usable and problems can be broken down into their smallest units and solutions are written faster.
+
+8)How would a static local variable be useful? If you have something you need to track between function calls, you'd want a static local variable in your function.
+
+9) Give an example where passing an argument by reference would be useful. A: if you need to perform a math operation like squaring or cubing a number, you can perform the operation
+inside a function and pass in your number/variable into the function by reference instead of value to modify it directly.
