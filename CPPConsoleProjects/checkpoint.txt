@@ -1,0 +1,12 @@
+7.1 Define the following arrays:
+A) empNums, a 100-element array of ints.
+B) payRates, a 25-element array of floats.
+C) miles, a 14-element array of longs.
+D) cityName, a 26-element array of string objects.
+E) lightYears, a 1,000-element array of doubles.
+
+int empNums[100];
+float payRates[25];
+long miles[14];
+string cityName[26];
+doubles lightYears[1000];
