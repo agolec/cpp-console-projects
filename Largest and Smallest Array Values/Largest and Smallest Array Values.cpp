@@ -2,19 +2,53 @@
 //
 
 #include <iostream>
+using std::cout;
+using std::cin;
+using std::endl;
+
+int largestNumber(const int[], int);
+int smallestNumber(const int[], int);
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    const int ARRAY_SIZE = 10;
+    int numberArray[ARRAY_SIZE];
+    int numberInput;
+    int smallestInt = 0;
+    int largestInt = 0;
+
+    cout << "Enter ten integers and I'll tell you which is the largest and which is the smallest number contained in the array.\n";
+    for (int iterator = 0; iterator < ARRAY_SIZE; iterator++) {
+        cin >> numberInput;
+        numberArray[iterator] = numberInput;
+    }
+    smallestInt = smallestNumber(numberArray, ARRAY_SIZE);
+    largestInt = largestNumber(numberArray, ARRAY_SIZE);
+
+    cout << "Largest number is :" << largestInt << endl;
+    cout << "Smallest number is: " << smallestInt << endl;
+    return 0;
+}
+int largestNumber(const int numberArray[], int size) {
+    int largestNumber = 0;
+
+    largestNumber = numberArray[0];
+    for (int i = 1; i < size; i++) {
+        if (numberArray[i] > largestNumber) {
+            largestNumber = numberArray[i];
+        }
+    }
+    return largestNumber;
 }
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
+int smallestNumber(const int numberArray[], int size) {
+    int smallestNumber = 0;
 
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
+    smallestNumber = numberArray[0];
+    for (int i = 1; i < size; i++) {
+        if (numberArray[i] < smallestNumber) {
+            smallestNumber = numberArray[i];
+        }
+    }
+    return smallestNumber;
+}
