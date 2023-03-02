@@ -6,10 +6,11 @@
 
 using namespace std;
 
-void enterJarsSoldByMonth(int[], string[], int);
+void enterJarsSoldByMonth(int[],const string[], int);
 void inputValidationForJarsSold(int  numberOfSalsaSold[], int i);
 string getHighestSoldSalsaName(int[], string[], int);
 string getLowestSoldSalsaName(int[], string[], int);
+string displaySalsaSalesEachMonth(const int[], const string[], const int);
 
 
 int main()
@@ -26,9 +27,8 @@ int main()
     int numberOfSalsaSold[TOTAL_TYPES_OF_SALSA] = { 0,0,0,0,0 };
     string namesOfSalsa[TOTAL_TYPES_OF_SALSA] = { "Mild", "Medium","Sweet","Hot","Zesty" };
 
-
     enterJarsSoldByMonth(numberOfSalsaSold, namesOfSalsa, TOTAL_TYPES_OF_SALSA);
-
+    string soldValues = displaySalsaSalesEachMonth(numberOfSalsaSold, namesOfSalsa, TOTAL_TYPES_OF_SALSA);
 
     return 0;
 }
@@ -100,4 +100,12 @@ string getLowestSoldSalsaName(const int numberOfSalsaSold[], const string namesO
     }
     return lowestSellingSalsaName;
 
+}
+
+string displaySalsaSalesEachMonth(const int numberOfSalsaSold[], const string namesOfSalsa[], const int size) {
+    string reportForEachMonthSales = "";
+    for (int i = 0; i < size; i++) {
+        reportForEachMonthSales += std::to_string(numberOfSalsaSold[i]) + "\t";
+    }
+    return reportForEachMonthSales;
 }
