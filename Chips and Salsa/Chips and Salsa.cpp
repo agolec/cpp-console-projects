@@ -10,7 +10,7 @@ void enterJarsSoldByMonth(int[],const string[], int);
 void inputValidationForJarsSold(int  numberOfSalsaSold[], int i);
 void displayHighestSoldSalsaNameAndNumber(const int[], const string[], const int);
 void displayLowestSoldSalsaNameAndNumber(const int[], const string[], const int);
-string displaySalsaSalesEachVariant(const int[], const int);
+void displaySalsaSalesEachVariant(const int[], const int);
 void displayTotalUnitsSold(const int[], const int);
 void displaySalsaNames(const string[], const int);
 
@@ -32,9 +32,7 @@ int main()
     enterJarsSoldByMonth(numberOfSalsaSold, namesOfSalsa, TOTAL_TYPES_OF_SALSA);
     displaySalsaNames(namesOfSalsa, TOTAL_TYPES_OF_SALSA);
 
-    string soldValues = displaySalsaSalesEachVariant(numberOfSalsaSold, TOTAL_TYPES_OF_SALSA);
-    
-    cout << soldValues << "\n\n";
+    displaySalsaSalesEachVariant(numberOfSalsaSold, TOTAL_TYPES_OF_SALSA);
 
     displayTotalUnitsSold(numberOfSalsaSold,TOTAL_TYPES_OF_SALSA);
     displayHighestSoldSalsaNameAndNumber(numberOfSalsaSold,namesOfSalsa,TOTAL_TYPES_OF_SALSA);
@@ -114,12 +112,12 @@ void displayLowestSoldSalsaNameAndNumber(const int numberOfSalsaSold[], const st
 
 }
 
-string displaySalsaSalesEachVariant(const int numberOfSalsaSold[], const int size) {
+void displaySalsaSalesEachVariant(const int numberOfSalsaSold[], const int size) {
     string reportForEachMonthSales = "";
     for (int i = 0; i < size; i++) {
         reportForEachMonthSales += std::to_string(numberOfSalsaSold[i]) + "\t";
     }
-    return reportForEachMonthSales;
+    cout << reportForEachMonthSales << "\n\n";
 }
 /*
 * Loop through the numberOfSalsaSold[] array and sum up the value of integers in the array. Then output it to the screen.
