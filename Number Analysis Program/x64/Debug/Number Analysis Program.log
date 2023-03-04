@@ -1,28 +1,24 @@
 ﻿  Number Analysis Program.cpp
-E:\IT projects\cplus-plus\Project-For-Cpp-Repo\cpp-console-projects\Number Analysis Program\Number Analysis Program.cpp(49,34): warning C4244: '=': conversion from '_Ty' to 'int', possible loss of data
+E:\IT projects\cplus-plus\Project-For-Cpp-Repo\cpp-console-projects\Number Analysis Program\Number Analysis Program.cpp(55,45): warning C4244: '=': conversion from 'unsigned __int64' to 'double', possible loss of data
+E:\IT projects\cplus-plus\Project-For-Cpp-Repo\cpp-console-projects\Number Analysis Program\Number Analysis Program.cpp(70,22): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+E:\IT projects\cplus-plus\Project-For-Cpp-Repo\cpp-console-projects\Number Analysis Program\Number Analysis Program.cpp(77,28): warning C4244: 'initializing': conversion from '_Ty' to 'int', possible loss of data
           with
           [
               _Ty=double
           ]
-E:\IT projects\cplus-plus\Project-For-Cpp-Repo\cpp-console-projects\Number Analysis Program\Number Analysis Program.cpp(52,36): warning C4244: '=': conversion from '_Ty' to 'int', possible loss of data
+E:\IT projects\cplus-plus\Project-For-Cpp-Repo\cpp-console-projects\Number Analysis Program\Number Analysis Program.cpp(80,37): warning C4244: '=': conversion from '_Ty' to 'int', possible loss of data
           with
           [
               _Ty=double
           ]
-E:\IT projects\cplus-plus\Project-For-Cpp-Repo\cpp-console-projects\Number Analysis Program\Number Analysis Program.cpp(57,35): warning C4244: '=': conversion from '_Ty' to 'int', possible loss of data
+E:\IT projects\cplus-plus\Project-For-Cpp-Repo\cpp-console-projects\Number Analysis Program\Number Analysis Program.cpp(88,27): warning C4244: 'initializing': conversion from '_Ty' to 'int', possible loss of data
           with
           [
               _Ty=double
           ]
-E:\IT projects\cplus-plus\Project-For-Cpp-Repo\cpp-console-projects\Number Analysis Program\Number Analysis Program.cpp(60,37): warning C4244: '=': conversion from '_Ty' to 'int', possible loss of data
+E:\IT projects\cplus-plus\Project-For-Cpp-Repo\cpp-console-projects\Number Analysis Program\Number Analysis Program.cpp(91,36): warning C4244: '=': conversion from '_Ty' to 'int', possible loss of data
           with
           [
               _Ty=double
           ]
-E:\IT projects\cplus-plus\Project-For-Cpp-Repo\cpp-console-projects\Number Analysis Program\Number Analysis Program.cpp(66,28): warning C4244: '+=': conversion from '_Ty' to 'int', possible loss of data
-          with
-          [
-              _Ty=double
-          ]
-E:\IT projects\cplus-plus\Project-For-Cpp-Repo\cpp-console-projects\Number Analysis Program\Number Analysis Program.cpp(70,45): warning C4244: '=': conversion from 'unsigned __int64' to 'double', possible loss of data
   Number Analysis Program.vcxproj -> E:\IT projects\cplus-plus\Project-For-Cpp-Repo\cpp-console-projects\CPPConsoleProjects\x64\Debug\Number Analysis Program.exe
